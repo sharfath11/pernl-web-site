@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+.hylo{
+    background-color: rgb(32,33,36);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    flex-direction: column;
+}
+.hylo button{
+ width: 150px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.browse{
+   font-size: x-small;
+   font-weight: 800;
+}
+.title{
+    background-color: #F8F7F5;
+}
+.carder-top{
+    width: 100%;
+}
+@media (min-width:800px) {
+    .cat{
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    
+    .hiden-lg span{
+        flex-grow: 1;
+    }
+    .card{
+        width: 18rem;
+    }
+   
+    
+@media (min-width:600px){
+    .arrow{
+        display: none;
+    }
+    .l-l{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        background-color: #202124;
+        color: white !important;
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+        height: 500px;
+    }
+}
+@media (min-width:1500px) {
+    .l-f2{
+        display: flex !important;
+        justify-content: center  !important;
+       }
+       .card1{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+       }
+       .bb{
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+       }
+       .card-div{
+        width: 100%;
+       }
+   }
+}
+@media (min-width:1000px) {
+    .menu{
+        display: none !important;
+    }
+    .hiden-lg{
+        /* display: contents; */
+        display: flex !important;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
+
+.hiden-lg{
+   display: none;
+
+}
+
+.f1{
+    height: 43px;
+    font-family: "National 2 Condensed";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #e4002b;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.card-text{
+    height: 48px;
+    font-family: "National 2 Regular";
+    font-weight: 400;
+    font-size: 14px;
+    color: #202124;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.card{
+    height: 368px;
+}
+.cards{
+    flex-shrink: 0;
+}
+.l-f{
+    background-color: #202124;
+
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+.btn-off:hover{
+    background-color: #202124;
+    color: #F8F7F5;
+}
+.arrow{
+    
+}
+.btn-off{
+    font-family: "National2-Medium";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    height: 46px;
+    width: 163px;
+}
+.sp-v{
+   
+
+    
+    border: none;
+    background: none;
+    text-decoration: underline;
+    padding: initial;
+    font-family: "National2-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #494949;
+}
+.l-l{
+    display: flex;
+    flex-direction: column;
+    background-color: #202124;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    gap: 30px;
+    
+}
+ul li{
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.last{
+    font-family: "National 2 Regular";
+    font-size: 12px;
+    text-align: center;
+    opacity: .9;
+    line-height: 12px;
+    color: #dbdbdb;
+}
+.last-1{
+    background-color: #202124;
+    margin-top: -16px;
+}
+.loaction{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202124;
+    font-family: "National 2 Regular";
+    height: 32px;
+    padding-top: 5px;
+    line-height: 24px;
+}
+.click{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.click div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lets{
+    height: 72px;
+    /* left: 20px;
+    top: 75px; */
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #202124;
+    padding-right: 9vw;
+    margin: 30px 0 0;
+    
+}
+.mobail-card{
+    background-color: #F8F7F5;
+    width: 100%;
+}
+.display-none{
+    display: none;
+}
+#mobile-menu{
+    display: none;
+}
+.mobile-menu{
+    display: contents !important;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 99;
+}
+.click{
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+    background-color: white;
+}
